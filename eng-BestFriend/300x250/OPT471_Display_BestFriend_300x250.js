@@ -26,28 +26,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["OPT471_Display_BestFriend_300x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["OPT471_Display_BestFriend_300x250_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["OPT471_Display_BestFriend_300x250_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["OPT471_Display_BestFriend_300x250_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -90,21 +90,21 @@ if (reversed == null) { reversed = false; }
 
 	// grad
 	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["rgba(255,255,255,0)","#FBF9F4"],[0,1],0,-7.5,0,7.5).s().p("A3bBLIAAiUMAu3gABIAACVg");
-	this.shape.setTransform(0.025,7.5);
+	this.shape.graphics.lf(["rgba(255,255,255,0)","#FBF9F4"],[0,1],0,-3,0,3).s().p("A3bAeIAAg7MAu3AAAIAAA7g");
+	this.shape.setTransform(0.025,3);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	// solid
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FBF9F4").s().p("A3bEsIAApXMAu3AAAIAAJXg");
-	this.shape_1.setTransform(0,45);
+	this.shape_1.setTransform(0,36);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.typeMask, new cjs.Rectangle(-150,0,300.1,75), null);
+}).prototype = getMCSymbolPrototype(lib.typeMask, new cjs.Rectangle(-150,0,300.1,66), null);
 
 
 (lib.PIC = function(mode,startPosition,loop,reversed) {
@@ -165,7 +165,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_4();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -187,7 +187,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -209,7 +209,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -231,7 +231,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// type
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-44.15,-25.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -354,9 +354,9 @@ if (reversed == null) { reversed = false; }
 
 	// PIC
 	this.instance_2 = new lib.PIC();
-	this.instance_2.setTransform(198.9,192.05,0.9098,0.9098,0,0,0,0.1,0.1);
+	this.instance_2.setTransform(158.9,192.05,0.9098,0.9098,0,0,0,0.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(130));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:198.9},113,cjs.Ease.quadOut).wait(17));
 
 	// pill
 	this.instance_3 = new lib.Bkgd_PillRGB01ai("synched",0);
@@ -407,7 +407,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(149.5,61.8,151,204.59999999999997);
+p.nominalBounds = new cjs.Rectangle(149.5,68,151,198.39999999999998);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -417,7 +417,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT471_Display_BestFriend_300x250_atlas_1.png?1661384339712", id:"OPT471_Display_BestFriend_300x250_atlas_1"}
+		{src:"images/OPT471_Display_BestFriend_300x250_atlas_1.png?1661628616201", id:"OPT471_Display_BestFriend_300x250_atlas_1"}
 	],
 	preloads: []
 };
