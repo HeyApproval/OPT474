@@ -416,7 +416,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT471_Display_BestFriend_160x600_atlas_1.png?1662003021772", id:"OPT471_Display_BestFriend_160x600_atlas_1"}
+		{src:"images/OPT471_Display_BestFriend_160x600_atlas_1.png?1662003340325", id:"OPT471_Display_BestFriend_160x600_atlas_1"}
 	],
 	preloads: []
 };
